@@ -19,5 +19,4 @@ namespace Genial\Debug;
  */
 class Transfer extends Bin\Methods
 {
-    
 }
