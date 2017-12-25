@@ -18,5 +18,4 @@ namespace Genial\Debug;
  */
 class Utils
 {
-    
 }
