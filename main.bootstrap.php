@@ -11,3 +11,11 @@
  * @license   <https://github.com/Genial-Framework/Debug/blob/master/LICENSE> New BSD License.
  */
 define('DEBUG_TOOLS_ACTIVE', true);
+
+if (!function_exists('env'))
+{
+    trigger_error(
+        'The `env()` function does not exist.',
+        E_USER_ERROR
+    );
+}
