@@ -12,8 +12,7 @@
  */
 define('DEBUG_TOOLS_ACTIVE', true);
 
-if (!function_exists('env'))
-{
+if (!function_exists('env')) {
     trigger_error(
         'The `env()` function does not exist.',
         E_USER_ERROR
