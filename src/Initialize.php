@@ -28,8 +28,8 @@ class Initialize implements InitializeInterface
      *
      * Initalize the debug dependent.
      *
-     * @param int|null $errorReporting The error reporting level the framework should run under.
-     * @param bool|null $logging       Should logging be enabled during execution.
+     * @param mixed|null $errorReporting The error reporting level the framework should run under.
+     * @param bool|null $logging         Should logging be enabled during execution.
      *
      * @return bool|true If the debug dependent was successfully initialized.
      */
