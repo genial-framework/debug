@@ -26,7 +26,7 @@ class Initialize implements InitializeInterface
     /**
      * __construct().
      *
-     * Iniialize the debug dependent.
+     * Initalize the debug dependent.
      *
      * @param int|null $errorReporting The error reporting level the framework should run under.
      * @param bool|null $logging       Should logging be enabled during execution.
