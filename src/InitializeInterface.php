@@ -29,14 +29,5 @@ interface InitializeInterface
      * @return bool|true If the debug dependent was successfully initialized.
      */
     function __construct($errorReporting = null, bool $logging = null);
-    
-    /**
-     * keyGeneration().
-     *
-     * Generate a key for the framework enviroment(dev).
-     *
-     * @return string The generated key
-     */
-    public function keyGeneration();
   
 }
