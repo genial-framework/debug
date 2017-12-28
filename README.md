@@ -1,4 +1,4 @@
-[![StyleCI](https://styleci.io/repos/115214565/shield?branch=master)](https://styleci.io/repos/115214565) [![Coveralls github branch](https://img.shields.io/coveralls/github/Genial-Framework/Debug/master.svg?style=flat-square)](https://coveralls.io/github/Genial-Framework/Debug?branch=master) [![Travis](https://img.shields.io/travis/Genial-Framework/Debug.svg?style=flat-square)](https://travis-ci.org/Genial-Framework/Debug) 
+[![Travis](https://img.shields.io/travis/Genial-Framework/Debug.svg?style=flat-square)](https://travis-ci.org/Genial-Framework/Debug) [![Coveralls github branch](https://img.shields.io/coveralls/github/Genial-Framework/Debug/master.svg?style=flat-square)](https://coveralls.io/github/Genial-Framework/Debug?branch=master)
 
 -------
 Debug tools for Genial Framework.
