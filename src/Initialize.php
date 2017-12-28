@@ -59,7 +59,19 @@ class Initialize implements InitializeInterface
      */
     public function keyGeneration()
     {
-        
+        $envAppKey = strval(env('application', 'app_secret_key', null));
+        $key = random_string(40, '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM`~!#$%^&*()-_=+\'";:<>,./\?|{}[]');
+        $sharedKey = $envAppKey == 'null'
+            ? str_shuffle($key);
+            : $envAppKey;
+        if (!Utils::validSecretKey($sharedKey))
+        {
+            throw new Exception\OutOfBoundsException(sprintf(
+                '`%s` The `$sharedKey` is invalid.',
+                __METHOD__
+            ));
+        }
+        return hash_hmac('sha526', $key, $sharedKey);
     }
   
 }
