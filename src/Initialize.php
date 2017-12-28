@@ -45,7 +45,7 @@ class Initialize implements InitializeInterface
         {
             \Genial\Log\Log::enable();
         }
-        Debug::enable();
+        Debug::enable($errorReporting);
         self::$errorReporting = $errorReporting;
         return true;
     }
