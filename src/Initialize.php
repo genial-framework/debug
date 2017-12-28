@@ -19,12 +19,17 @@ class Initialize implements InitializeInterface
 {
     
     /**
+     * @var int|null $errorReporting The error reporting level the framework should run under.
+     */
+    protected static $errorReporting;
+    
+    /**
      * __construct().
      *
      * Iniialize the debug dependent.
      *
      * @param int|null $errorReporting The error reporting level the framework should run under.
-     * @param bool|null $logging   Should logging be enabled during execution.
+     * @param bool|null $logging       Should logging be enabled during execution.
      *
      * @return bool|true If the debug dependent was successfully initialized.
      */
@@ -41,6 +46,7 @@ class Initialize implements InitializeInterface
             \Genial\Log\Log::enable();
         }
         Debug::enable();
+        self::$errorReporting = $errorReporting;
         return true;
     }
     
