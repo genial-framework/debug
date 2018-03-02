@@ -38,7 +38,7 @@
     </logging>
     <testsuites>
         <testsuite name="Genial\Debug Test Suite">
-            <directory suffix="Test.php">./test/unit</directory>
+            <directory suffix="Test.php">./tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
