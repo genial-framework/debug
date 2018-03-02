@@ -1,10 +1,4 @@
-.travis.yml
 composer.json
 composer.lock
 composer.phar
 /vendor/
-/tests/
-README.md
-LICENSE.md
-.coveralls.yml
-phpunit.xml
