@@ -1,0 +1,5 @@
+phpini:
+    error_reporting: 0
+    display_errors: false
+    display_startup_errors: false
+    error_prepend_string: [GENIAL_DEBUG_ERROR]: 
